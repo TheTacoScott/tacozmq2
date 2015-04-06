@@ -4,5 +4,6 @@ import main.views
 
 urlpatterns = [
     url(r'^$', 'main.views.index', name='index'),
+    url(r'^shutdown$', 'main.views.shutdown', name='shutdown'),
     url(r'^admin/', include(admin.site.urls)),
 ]
